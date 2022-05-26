@@ -1,0 +1,41 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #083b4c;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+/* style box */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  padding: 8px;
+  margin: 12px;
+  background: #0b5772;
+}
+.fizz {
+  background: #0ad6a1;
+}
+.buzz {
+  background: #ffd166;
+}
+.fizzbuzz {
+  background: #f0466f;
+}
