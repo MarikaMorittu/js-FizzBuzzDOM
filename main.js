@@ -3,7 +3,7 @@ let container = document.querySelector(".container");
 for (i = 1; i <= 100; i++) {
   // continuo con le singole condizioni all'interno del ciclo
   if (i % 3 == 0 || i % 15 == 0) {
-    if (i % 3 == 0 && si % 15 == 0) {
+    if (i % 3 == 0 && i % 15 == 0) {
       // crea un div e scrivici dentro FizzBuzz
       let box = `<div class="box fizzbuzz">FizzBuzz</div>`;
       container.innerHTML += box;
